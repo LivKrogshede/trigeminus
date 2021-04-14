@@ -1,0 +1,31 @@
+
+body {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("pics/background.jpg");
+}
+
+.header {
+    display: flex;
+    border-bottom: solid;
+    border-color: #707070;
+}
+
+.img-header {
+    height: auto;
+    width: 65%;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+    border-left:solid;
+    border-color: #707070;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
