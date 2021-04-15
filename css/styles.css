@@ -24,8 +24,30 @@ body {
     border-color: #707070;
 }
 
+.menu {
+    display: block;
+    padding: 0;
+}
+
+.menu-items {
+    list-style-type: none;
+    padding: 0;   
+}
+
 .cont {
     display: flex;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
+a:link {
+    text-decoration: none;
+  }
+
+  .section { 
+      border-right: solid;
+      border-color:#707070;
+  }
+
+  .video {
+      padding: 5%;
+  }
